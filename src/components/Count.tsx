@@ -8,7 +8,7 @@ export function Count(){
       <h2>{count}</h2>
       <div className="buttons">
         <button onClick={() => setCount(count+1)}>Increase</button>
-        <button>Decrease</button>
+        <button onClick={() => setCount(count-1)}>Decrease</button>
         <button>Set to Zero</button>
       </div>
     </div>
