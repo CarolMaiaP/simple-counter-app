@@ -9,7 +9,7 @@ export function Count(){
       <div className="buttons">
         <button onClick={() => setCount(count+1)}>Increase</button>
         <button onClick={() => setCount(count-1)}>Decrease</button>
-        <button>Set to Zero</button>
+        <button onClick={() => setCount(0)}>Set to Zero</button>
       </div>
     </div>
   )
